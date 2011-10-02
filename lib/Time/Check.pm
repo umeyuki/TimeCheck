@@ -1,4 +1,3 @@
-
 package Time::Check;
 
 use strict;
@@ -18,7 +17,7 @@ sub new {
 }
 
 sub check {
-    my ($self,$target_hour,$same_flag) = @_;
+    my ($self,$target_hour) = @_;
     my $start_hour = $self->{start};
     my $end_hour   = $self->{end};
 
