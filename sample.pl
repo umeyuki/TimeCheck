@@ -8,7 +8,7 @@ my $end_hour    = $ARGV[1];
 my $target_our  = $ARGV[2];
 
 unless (defined($start_hour) && defined($end_hour) && defined($target_our)){
-    die "wrong arguments. you should enter \"perl app.pl start_hour end_hour target_hour\"";
+    die "Usage:perl myapp.pl start_hour end_hour target_hour";
 }
 
 
