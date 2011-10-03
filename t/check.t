@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use Time::Check;
 use Test::More tests => 4;
+#指定の時刻が正しく判定されるかテストします
 can_ok('Time::Check', 'check');
 
 subtest 'Starthour < Endhour' => sub {
